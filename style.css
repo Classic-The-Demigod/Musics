@@ -1,0 +1,398 @@
+body {
+    margin: 0;
+    background: #1d2123;
+    font-family: Quicksand;
+}
+/* Styling for the logo and search bar - Start */
+.header {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.logo-icon {
+    margin-right: 40px;
+    width: 40px;
+}
+.search-bar {
+    display: flex;
+    background: #1a1e1f;
+    width: 600px;
+    padding: 2px 15px;
+    border-radius: 35px;
+    color: rgba(255, 255, 255, 0.25);
+}
+#Search-text {
+    background: none;
+    border: none;
+    width: 600px;
+}
+.search-icon {
+    width: 20px;
+    margin-right: 20px;
+}
+/* Styling for the logo and search bar - End */
+.first-section {
+    display: flex;
+}
+/* Styling for navbar - Start */
+.navbar-cta {
+    position: fixed;
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    background: #1a1e1f;
+    padding: 5px;
+    border-radius: 30px;
+    padding: 10px;
+}
+#navbar-below {
+    position: fixed;
+    top: 380px;
+}
+.icon {
+    margin-bottom: 30px;
+    width: 40px;
+    fill: rgba(239, 238, 224, 0.25);
+    cursor: pointer;
+    background: none;
+}
+#home-icon {
+    width: 60px;
+    margin-left: -10px;
+    margin-bottom: 20px;
+    fill: #FACD66;
+}
+#icon2 {
+    margin-bottom: 30px;
+    width: 40px;
+    padding: 10px;
+    margin-bottom: 0;
+    margin-left: -9px;
+    fill: rgba(239, 238, 224, 0.25);
+    cursor: pointer;
+}
+.icon:hover {
+    fill: #FACD66;
+}
+#icon2:hover {
+    fill: #FACD66;
+}
+/* Styling for navbar - End */
+
+
+/* Banner Section Styling Start */
+.banner-cta {
+    margin-left: 120px;
+    display: flex;
+    flex-direction: row;
+    width: 620px;
+    height: 360px;
+    background: #609EAF;
+    border-radius: 40px;
+    background-image: url('/images/Vector.png');
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.banner-section1 {
+    padding: 10px 30px;
+    color: white;
+}
+.banner-section2{
+    justify-content: flex-end;
+}
+#footer-note {
+    padding-bottom: 50px;
+}
+#footer-head {
+    padding-bottom: 0px;
+}
+#banner-footer {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer-image {
+    width: 80px;
+    height: 30px;
+}
+#love-icon {
+    fill: white;
+}
+#love-icon:hover{
+    fill: #FACD66;
+}
+.img-footer {
+    width: 332px;
+    object-fit: contain;
+}
+/* Banner Section Styling End */
+
+/* Top chart styling start */
+.top-chart-cta {
+    margin: -15px 40px;
+    color: white;
+}
+/* First Card Styling Start */
+.card-cta {
+    margin-top: -10px;
+    display: flex;
+    flex-direction: row;
+    background: #1a1e1f;
+    width: 500px;
+    padding: 0px 20px;
+    align-items: center;
+    border-radius: 20px;
+}
+#top-chart-img {
+    width: 60px;
+    height: 60px;
+}
+#top-chart-text {
+    margin-left: 30px;
+    font-size: 12px;
+    line-height: 10px;
+    width: 200px;
+}
+.top-chart-icon {
+    margin-left: 200px;
+    fill: #1a1e1f;
+}
+.top-chart-icon:hover {
+    fill: #FACD66;
+}
+/* First Card Styling End */
+
+/* Second Card Styling Start */
+.card-cta2 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    background: #1a1e1f;
+    width: 500px;
+    padding: 0px 20px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#top-chart-img2 {
+    width: 60px;
+    height: 60px;
+}
+
+#top-chart-text2 {
+    margin-left: 30px;
+    font-size: 12px;
+    line-height: 10px;
+    width: 200px;
+}
+
+.top-chart-icon2 {
+    margin-left: 200px;
+    fill: #1a1e1f;
+}
+
+.top-chart-icon:hover {
+    fill: #FACD66;
+}
+/* Second Card Styling End */
+
+/* Third Card Styling Start */
+.card-cta3 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    background: #1a1e1f;
+    width: 500px;
+    padding: 0px 20px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#top-chart-img3 {
+    width: 60px;
+    height: 60px;
+}
+#top-chart-text3 {
+    margin-left: 30px;
+    font-size: 12px;
+    line-height: 10px;
+    width: 200px;
+}
+.top-chart-icon3 {
+    margin-left: 200px;
+    fill: #1a1e1f;
+}
+
+.top-chart-icon:hover {
+    fill: #FACD66;
+}
+/* Third Card Styling End */
+/* Top chart styling End */
+
+
+/* New Releases styling start */
+.New-Releases {
+    margin-left: 100px;
+    margin-right: 40px;
+    margin-bottom: 100px;
+    color: white;
+    justify-content: start;
+}
+#text-scroller {
+    margin-left: 18px;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px grey; */
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #FACD66;
+    border-radius: 10px;
+}
+
+.media-scroller {
+    display: grid;
+    gap: 0.5rem;
+    grid-auto-flow: column;
+    grid-auto-columns: 15%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: 2rem;
+}
+::-webkit-scrollbar-horizontal {
+    width: 10px;
+}
+.media-scroller > * {
+    scroll-snap-align: start;
+}
+.media-element {
+    padding: 1rem;
+    margin: 0px;
+}
+.media-element > img {
+    inline-size: 100%;
+    aspect-ratio: 16/16;
+    object-fit: cover;
+}
+.media-element:hover {
+    background: #1a1e1f;
+    border-radius: 20px;
+}
+                /* music player section starts */
+.music-player {
+    background: url(/images/Rectangle\ 11.png);
+    height: 100px;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin-bottom: 0px;
+}
+.player-section1 {
+    width: 100px;
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    align-items: center;
+}
+.player-section1 > img {
+    width: 80px;
+    height: 90px;                       
+}
+#text-section {
+    color: white;
+    line-height: 10px;
+    margin-top: -26px;
+    margin-left: 20px;
+    line-height: 10px;
+}
+.player_section2 {
+    margin: -30px 0px 5px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.music_iconset {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+#range_below {
+    width: 700px;
+    margin-top: -50px;
+}
+.player_icon {
+    width: 100px;
+}
+/* #play_button:hover{
+    background: #FACD66;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} */
+.player_section3 {
+    margin: -30px 100px 5px 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.player_section3icons {
+    margin-right: 10px;
+}
+/* input range styling starts */
+input[type=range] {
+    -webkit-appearance: none;
+    background: #FACD66;
+    border-radius: 30px;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 8px;
+    background: #FACD66;
+    border: none;
+    border-radius: 30px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: #FACD66;
+    margin-top: -4px;
+}
+
+input[type=range]:focus {
+    background: #FACD66;
+    outline: none;
+    border-radius: 30px;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #FACD66;
+}
+/* input range styling ends */
+
+
+
